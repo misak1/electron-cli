@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"></meta>
+	<!-- <title>Dialog Test</title> -->
+	<title>CLI Test</title>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<!-- <h1>Dialog Test</h1> -->
+	<h1>CLI Test</h1>
+	<ul>
+		<!-- <li>Browser Window
+			<ul>
+				<li><a href="#" onclick="App.showSaveDialog(true)">Show Save dialog</a></li>
+				<li><a href="#" onclick="App.showOpenDialog(true)">Show Open dialog</a></li>
+				<li><a href="#" onclick="App.showMessageBox(true)">Show Message box</a></li>
+			</ul>
+		</li>
+		<li>No Browser Window
+			<ul>
+				<li><a href="#" onclick="App.showSaveDialog(false)">Show Save dialog</a></li>
+				<li><a href="#" onclick="App.showOpenDialog(false)">Show Open dialog</a></li>
+				<li><a href="#" onclick="App.showMessageBox(false)">Show Message box</a></li>
+			</ul>
+		</li>
+		<li><a href="#" onclick="App.showErrorBox()">Show Error box</a></li> -->
+		<li><a href="#" onclick="App.execLS()">ls実行</a></li>
+		<li><a href="#" onclick="App.execPWD()">pwd実行</a></li>
+		<li><a href="#" onclick="App.execMixed()">"ls -la | grep ^d"実行</a></li>
+	</ul>
+	<textarea id="editaria" style="width:100%;height:300px;border:1px solid #000;"></textarea>
+</body>
+</html>
